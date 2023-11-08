@@ -1,0 +1,563 @@
+:root {
+  --main-color: #f7f7f7;
+  --secondary-color: #869791;
+  --other-color: #5b5b5b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.container .dots {
+  width: 15%;
+  height: 10px;
+  margin: auto;
+  background-image: url(../imgs/dots.png);
+}
+
+/* Start Navbar Section */
+
+.navbar .nav-item a {
+  color: black;
+}
+
+.navbar .nav-item .active {
+  border-bottom: 2px black solid;
+}
+
+.navbar .nav-item:hover a {
+  border-bottom: 2px black solid;
+}
+
+/* End Navbar Section */
+
+/* Start Home Section */
+
+#home p,
+#home h2 {
+  font-size: 3rem;
+}
+
+#home h2 {
+  font-weight: 900;
+}
+
+#home .back {
+  background-image: url(../imgs/bg.jpg);
+  background-size: cover;
+}
+
+#home .social .icn {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+#home .social .icn a {
+  text-decoration: none;
+}
+
+#home .typewrite p::after {
+  content: " ";
+  font-weight: 600;
+  animation: typing 5s linear infinite;
+  border-right: solid 3px white;
+  transition: all ease-in-out;
+}
+
+@keyframes typing {
+  0% {
+    content: "";
+  }
+  1% {
+    content: "";
+  }
+  2% {
+    content: "D";
+  }
+  3% {
+    content: "DE";
+  }
+  4% {
+    content: "DEV";
+  }
+  5% {
+    content: "DEVE";
+  }
+  6% {
+    content: "DEVEL";
+  }
+  7% {
+    content: "DEVELO";
+  }
+  8% {
+    content: "DEVELOP";
+  }
+  9% {
+    content: "DEVELOPE";
+  }
+  10% {
+    content: "DEVELOPER";
+  }
+  21% {
+    content: "DEVELOPER";
+  }
+  22% {
+    content: "DEVELOPE";
+  }
+  23% {
+    content: "DEVELOP";
+  }
+  24% {
+    content: "DEVELO";
+  }
+  25% {
+    content: "DEVEL";
+  }
+  26% {
+    content: "DEVE";
+  }
+  27% {
+    content: "DEVE";
+  }
+  28% {
+    content: "DEV";
+  }
+  29% {
+    content: "DE";
+  }
+  30% {
+    content: "D";
+  }
+  31% {
+    content: "";
+  }
+  32% {
+    content: "";
+  }
+  33% {
+    content: "D";
+  }
+  34% {
+    content: "DE";
+  }
+  35% {
+    content: "DES";
+  }
+  36% {
+    content: "DESI";
+  }
+  37% {
+    content: "DESIG";
+  }
+  38% {
+    content: "DESIGN";
+  }
+  39% {
+    content: "DESIGNE";
+  }
+  40% {
+    content: "DESIGNER";
+  }
+  51% {
+    content: "DESIGNER";
+  }
+  52% {
+    content: "DESIGNE";
+  }
+  53% {
+    content: "DESIGN";
+  }
+  54% {
+    content: "DESIG";
+  }
+  55% {
+    content: "DESI";
+  }
+  56% {
+    content: "DES";
+  }
+  57% {
+    content: "DE";
+  }
+  58% {
+    content: "D";
+  }
+  59% {
+    content: "";
+  }
+  60% {
+    content: "";
+  }
+  61% {
+    content: "L";
+  }
+  62% {
+    content: "LA";
+  }
+  63% {
+    content: "LAR";
+  }
+  64% {
+    content: "LARR";
+  }
+  65% {
+    content: "LARRY";
+  }
+  66% {
+    content: "LARRY ";
+  }
+  67% {
+    content: "LARRY D";
+  }
+  68% {
+    content: "LARRY DA";
+  }
+  69% {
+    content: "LARRY DAN";
+  }
+  70% {
+    content: "LARRY DANI";
+  }
+  71% {
+    content: "LARRY DANIL";
+  }
+  72% {
+    content: "LARRY DANILS";
+  }
+  83% {
+    content: "LARRY DANILS";
+  }
+  84% {
+    content: "LARRY DANIL";
+  }
+  85% {
+    content: "LARRY DANI";
+  }
+  86% {
+    content: "LARRY DAN";
+  }
+  87% {
+    content: "LARRY DA";
+  }
+  88% {
+    content: "LARRY D";
+  }
+  89% {
+    content: "LARRY ";
+  }
+  90% {
+    content: "LARRY";
+  }
+  91% {
+    content: "LARR";
+  }
+  92% {
+    content: "LAR";
+  }
+  93% {
+    content: "LA";
+  }
+  94% {
+    content: "L";
+  }
+  96% {
+    content: "";
+  }
+  100% {
+    content: "";
+  }
+}
+
+/* End Home Secttion */
+
+/* Start About Sections*/
+
+#about .content .progress {
+  overflow: visible;
+  position: relative;
+  box-shadow: inset rgba(0, 0, 0, 0.288) 0px 0px 3px 1px;
+  height: 1.5rem;
+}
+
+#about .content .progress-bar {
+  height: 1.6rem;
+  border-radius: 5px;
+  position: absolute;
+  background-color: black;
+}
+
+#about .content .buttons button {
+  height: 50;
+  padding: 5px 20px;
+}
+
+#about .content .buttons button a {
+  text-decoration: none;
+}
+
+#about .content .buttons .btn1 {
+  background-color: black;
+  transition: all 0.5s;
+}
+
+#about .content .buttons .btn1 a {
+  color: white;
+  transition: all 0.5s;
+}
+
+#about .content .buttons .btn2 {
+  background-color: white;
+  transition: all 0.5s;
+}
+
+#about .content .buttons .btn2 a {
+  color: black;
+  transition: all 0.5s;
+}
+
+#about .img {
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+}
+
+#about .content .buttons .btn1:hover {
+  background-color: white;
+}
+
+#about .content .buttons .btn1:hover a {
+  color: black;
+}
+
+#about .content .buttons .btn2:hover {
+  background-color: black;
+}
+
+#about .content .buttons .btn2:hover a {
+  color: white;
+}
+
+/* End About Section */
+
+/* Start Services Section */
+
+#services .icn {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  margin: auto;
+  transition: all 0.5s;
+}
+
+#services .container .item:hover .icn {
+  background-color: black;
+  color: white;
+}
+
+/* End Services Section */
+
+/* Start Portofolio Section */
+
+#portofolio .filters a {
+  margin-inline: 10px;
+  cursor: pointer;
+}
+
+#portofolio .filters a:hover {
+  border-bottom: black 2px solid;
+}
+
+#portofolio img {
+  width: 100%;
+}
+
+#portofolio .item {
+  position: relative;
+}
+
+#portofolio .item .overlay {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 20%;
+  left: 5%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0%;
+  transition: all 0.5s ease-in-out;
+}
+
+#portofolio .item .overlay .links {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+#portofolio .item .overlay .link {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: black 1px solid;
+}
+
+#portofolio .item .overlay .link a {
+  color: white;
+}
+
+#portofolio .item .overlay .link:hover {
+  background-color: white;
+}
+
+#portofolio .item .overlay .link:hover a {
+  color: black;
+}
+
+#portofolio .item .overlay p {
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+
+#portofolio .item .overlay:hover {
+  opacity: 100%;
+  top: 5%;
+}
+
+#portofolio .item .overlay:hover p {
+  margin-bottom: 5px;
+}
+
+/* End Portofolio Section */
+
+/* Start Testimonial Section */
+
+#testimonial .carousel-inner .carousel-item img {
+  width: 7%;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#testimonial .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+}
+
+/* End Testimonial Section */
+
+/* Start Tean Section */
+
+#team .cards .card .card-body {
+  background-color: var(--other-color);
+  color: white;
+}
+
+#team .card {
+  position: relative;
+}
+
+#team .card .overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 90%;
+  height: 75%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(50%) rotatey(0);
+  transition: all 0.5s;
+  opacity: 0%;
+}
+
+#team .card .overlay .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#team .card .overlay .social .icn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  border: black 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+#team .card .img {
+  overflow: hidden;
+}
+
+#team .card .img img {
+  transition: all 0.5s;
+}
+
+#team .card .overlay .social .icn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#team .card:hover .overlay {
+  transform: scale(100%) rotatey(360deg);
+  opacity: 100%;
+}
+
+#team .card .img:hover img {
+  transform: scale(1.2);
+}
+
+/* End Team Section */
+
+/* Start Contact Section */
+
+#contact .item .icn i {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  transition: all 0.5s;
+}
+
+#contact form input {
+  outline: none;
+}
+
+#contact form textarea {
+  outline: none;
+}
+
+#contact .item:hover .icn i {
+  background-color: black;
+  color: white;
+}
+
+/* End Contact Section */
